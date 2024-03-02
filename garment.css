@@ -1,0 +1,11 @@
+.seec {
+    /* background-color: skyblue; */
+    background: url("/assets/img/Garment\ Management\ System.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 0px;
+  }

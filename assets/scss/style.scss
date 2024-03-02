@@ -1,0 +1,70 @@
+#hero_sec {
+  .carousel {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #cdcdcd;
+
+    .carousel-item {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #2e2e2e;
+      top: 0;
+      left: 100%;
+
+      &.active {
+        left: 0;
+        transition: all 0.6s ease-out;
+      }
+
+      div {
+        height: 100%;
+      }
+    }
+
+    .hotel {
+      background: url("https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    }
+
+    .hospital {
+      background: url("https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .garment {
+      background: url("https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .library {
+      background: url("https://images.unsplash.com/photo-1600431521340-491eca880813?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .grocery {
+      background: url("https://images.unsplash.com/photo-1604776485611-4371f7a48cc2?q=80&w=1798&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .payroll {
+      background: url("https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}

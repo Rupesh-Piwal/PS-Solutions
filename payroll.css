@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(229, 229, 229);
+    background: linear-gradient(
+      149deg,
+      rgb(248, 254, 255) 0%,
+      rgb(240, 250, 252) 100%
+    );
+  }
+  
+  #hotel-seec {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100vw;
+  }
+  .seec {
+    /* background-color: skyblue; */
+    background: url("/assets/img/Payroll\ System.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  
+  .titlee {
+    /* background-color: yellowgreen; */
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+  
